@@ -222,8 +222,8 @@ section{
 .section1 .container .card{
     position: relative;
     width: 550px;
-    height: 370px;
-    background: #232323;
+    height: 190px;
+    background: #000000;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -240,14 +240,24 @@ section{
     transition: 0.5s ease-in-out;
 }
 
+
+/* 
+Forum
+*/
+.forum{
+    background-image: url(../img/reallysimpletown.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section1 .container .card:hover:before{
     clip-path: circle(300px at 80% -20%);
 }
 .section1 .container .card::after{
     content: 'TAXIQ';
     position: absolute;
-    top: 30%;
-    left: -20%;
+    top: 0;
+    left: -5%;
     font-size: 12em;
     font-weight: 800;
     font-style: italic;
@@ -275,7 +285,7 @@ section{
 
 .section1 .container .card .containBx {
     position: absolute;
-    top: 100px;
+    top:0;
     /* bottom: 0; */
     width: 100%;
     height: 100px;
